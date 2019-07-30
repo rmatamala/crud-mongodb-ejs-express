@@ -1,0 +1,24 @@
+{
+  "name": "music",
+  "version": "1.0.0",
+  "description": "nodeapp",
+  "main": "index.js",
+  "author": "Rodrigo Matamala",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.5.12",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "scripts": {
+    "dev": "nodemon ./src/app.js",
+    "start": "node ./src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
